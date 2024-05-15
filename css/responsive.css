@@ -64,10 +64,9 @@
   z-index: 1; /* Ensure the text appears on top of the background image */
 }
 
-.buhle {
+.slider_section .detail-box .buhle {
   color: white;
 }
-
 
   .about_section {
     padding-top: 0;
