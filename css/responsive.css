@@ -1,0 +1,206 @@
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .User_option {
+    display: none;
+  }
+
+  .sale_section .sale_container .box {
+    -ms-flex-preferred-size: 48%;
+    flex-basis: 48%;
+    margin: 1%;
+  }
+
+  .sale_section .sale_container .box {
+    -ms-flex-preferred-size: 98%;
+    flex-basis: 98%;
+    margin: 1%;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .hero_area {
+    background: none;
+    background-color: #e9eefc;
+    height: auto;
+  }
+
+
+  .custom_menu-btn button span {
+    background-color: #0f2480;
+  }
+
+  .sub_page .custom_menu-btn button span {
+    background-color: #ffffff;
+  }
+
+
+  /* responsive.css */
+
+/* Define styles for smaller screens */
+
+.slider_section {
+  position: relative;
+  background-image: url(../images/w1.jpg); /* Add the path to your background image */
+  background-size: cover; /* Ensure the background image covers the entire section */
+  background-position: center; /* Center the background image */
+  height: 300px; /* Set the height of the section */
+  margin-bottom: 20px;
+  padding: 35px 0 75px 0;
+}
+
+.slider_section::before {
+  position: absolute;
+  top: 50%; /* Adjust as needed to vertically center the text */
+  left: 50%; /* Adjust as needed to horizontally center the text */
+  transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+  color: white; /* Text color */
+  text-align: center; /* Center-align text */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px; /* Padding around text */
+  max-width: 80%; /* Adjust as needed */
+  z-index: 1; /* Ensure the text appears on top of the background image */
+}
+
+
+
+
+
+  .about_section {
+    padding-top: 0;
+  }
+
+  .sub_page .about_section {
+    padding-top: 90px;
+  }
+
+  .about_section .detail-box {
+    margin-top: 35px;
+  }
+
+  .deal_section .img-box {
+    width: 100%;
+    margin-top: 45px;
+  }
+
+  .info_section .row>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .contact_section .row {
+    flex-direction: column-reverse;
+  }
+
+  .contact_section .map_container {
+    padding: 0;
+    height: 450px;
+  }
+
+  .contact_section .form_container {
+    padding: 45px 0;
+  }
+
+  .client_section .client_container {
+    width: 95%;
+  }
+
+  .client_section .client_container .box {
+    padding-bottom: 45px;
+  }
+
+  .client_section .client_container .carousel-control-prev,
+  .client_section .client_container .carousel-control-next {
+    top: calc(100% - 45px);
+  }
+
+  .client_section .client_container .carousel-control-prev {
+    left: calc(50% - 50px);
+  }
+
+  .client_section .client_container .carousel-control-next {
+    right: calc(50% - 50px);
+
+  }
+
+  .info_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info_section .info_contact .img-box {
+    margin-top: 5px;
+  }
+
+  .info_section .info_contact>div {
+    align-items: flex-start;
+  }
+
+  .info_section .info_form h5 {
+    text-align: center;
+  }
+
+  .info_section .info_form .social_box {
+    justify-content: center;
+  }
+
+  .info_section .info_form .social_box a {
+    margin: 0 15px;
+  }
+
+  .footer_section p {
+    width: 85%;
+  }
+}
+
+@media (max-width: 576px) {
+  .slider_section .detail-box h1 {
+    font-size: 3rem;
+  }
+
+  .client_section .client_container div#carouselExampleControls {
+    padding: 0 5%;
+  }
+
+  .client_section .client_container .box {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .client_section .client_container .box .detail-box {
+    margin-top: 25px;
+  }
+
+  .client_section .client_container div#carouselExampleControls::before {
+    height: 165px;
+    left: 30%;
+    top: 43px;
+
+  }
+
+  .footer_section p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 420px) {
+  .client_section .client_container div#carouselExampleControls::before {
+    left: 20%;
+  }
+}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
