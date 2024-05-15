@@ -48,14 +48,14 @@
   height: 300px; /* Set the height of the section */
   margin-bottom: 20px;
   padding: 35px 0 75px 0;
-  text-align: center;
+  text-align: center; /* Center-align text */
 }
 
 .slider_section::before {
   position: absolute;
-  top: 50%; /* Adjust as needed to vertically center the text */
-  left: 50%; /* Adjust as needed to horizontally center the text */
-  transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the pseudo-element both horizontally and vertically */
   color: white; /* Text color */
   text-align: center; /* Center-align text */
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
@@ -63,6 +63,7 @@
   max-width: 80%; /* Adjust as needed */
   z-index: 1; /* Ensure the text appears on top of the background image */
 }
+
 
 
 
